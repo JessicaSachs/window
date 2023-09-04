@@ -2,11 +2,11 @@
 import WrapBalancer from 'vue-wrap-balancer';
 </script>
 <template>
-  <div class="text-left sm:text-center dark">
-    <h1 class="text-3xl font-normal text-gray-100">
+  <div class="text-left sm:text-center dark sm:pt-[100px]">
+    <h1 class="text-3xl sm:text-5xl font-normal text-gray-100">
       <WrapBalancer>Are you on window.top?</WrapBalancer>
     </h1>
-    <div class="font-normal text-sm">
+    <div class="font-normal text-sm sm:text-base sm:pt-4">
       <p>
         <WrapBalancer>Unravel the matrix, one execution context at a time.</WrapBalancer>
       </p>
