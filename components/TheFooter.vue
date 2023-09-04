@@ -16,7 +16,7 @@
         <Icon class="h-[1em] w-[1.2em]" name="logos:vue" />
       </NuxtLink>
       <NuxtLink alt="OpenAI Logo" href="https://openai.com">
-        <Icon style="vertical-align: -0.2em;" class="fill-white h-[1em] w-[4em]" name="logos:openai" />
+        <Icon class="fill-white h-[1em] w-[4em]" name="logos:openai" />
       </NuxtLink>
       <NuxtLink href="https://github.com/jessicasachs/window">Source</NuxtLink>
     </p>
@@ -26,13 +26,5 @@
 <style scoped>
 a {
   @apply relative underline;
-}
-
-a svg {
-  @apply transition-all duration-200
-}
-
-a svg:hover {
-  @apply origin-center scale-[1.05];
 }
 </style>

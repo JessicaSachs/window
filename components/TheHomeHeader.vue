@@ -11,10 +11,19 @@ import WrapBalancer from 'vue-wrap-balancer';
         <WrapBalancer>Unravel the matrix, one execution context at a time.</WrapBalancer>
       </p>
       <p>
-        <NuxtLink href="https://google.com" class="underline">
-          <WrapBalancer>What is window.top for real though?</WrapBalancer>
-        </NuxtLink>
+        <WrapBalancer class="space-x-1">What is <NuxtLink href="https://stackoverflow.com/a/3473971">
+            window.top</NuxtLink>
+          <NuxtLink href="https://developer.mozilla.org/en-US/docs/Web/API/Window/top">for</NuxtLink>
+          <NuxtLink href="https://www.youtube.com/watch?v=YHCIeCOkErc">real</NuxtLink>
+          <NuxtLink href="https://superuser.com/q/105699">though</NuxtLink>?
+        </WrapBalancer>
       </p>
     </div>
   </div>
 </template>
+
+<style scoped>
+a {
+  @apply underline;
+}
+</style>
