@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { nonApologies } from '~~/responses';
 import ChatInput from './ChatInput.vue';
+import DeviHeader from './DeviHeader.vue'
 
 const messages = ref([
   {
@@ -56,6 +57,7 @@ const sendPrompt = async () => {
 <template>
   <div class="chat-messages-layout-wrapper">
     <div class="chat-messages-wrapper bg-white rounded-md shadow flex flex-col justify-between">
+      <DeviHeader class="px-4 pt-2"></DeviHeader>
       <div class="h-full overflow-auto chat-messages">
         <ChatBubbles :messages="messages" />
         <div class="p-4 ml-10 mr-auto" v-if="loading">
