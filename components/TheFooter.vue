@@ -13,12 +13,6 @@
       <NuxtLink alt="Nuxt Logo" href="https://nuxt.com/">
         <Icon style="vertical-align: -0.1em;" class="h-[1em] w-[4em] fill-white" name="logos:nuxt" />
       </NuxtLink>
-      <NuxtLink alt="Vue Logo" href="https://vuejs.org/">
-        <Icon class="h-[1em] w-[1.2em]" name="logos:vue" />
-      </NuxtLink>
-      <NuxtLink alt="OpenAI Logo" href="https://openai.com">
-        <Icon class="fill-white h-[1em] w-[4em]" name="logos:openai" />
-      </NuxtLink>
       <span>
         Made with ♥ by <NuxtLink href="https://jess.sh/">Jessica Sachs</NuxtLink>
       </span>
