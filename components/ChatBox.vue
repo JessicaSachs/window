@@ -6,7 +6,7 @@ import DeviHeader from './DeviHeader.vue'
 const messages = ref([
   {
     role: 'assistant',
-    message: 'Ugh, what do you want now?'
+    message: 'Let me guess, you want to know what `window.top` is?'
   }
 ]);
 const loading = ref(false);
