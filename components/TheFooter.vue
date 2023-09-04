@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="mx-auto px-4 w-full text-sm space-y-2">
+  <div class="mx-auto px-4 w-full text-sm space-y-2 dark">
     <p>
       Thanks <NuxtLink alt="Vercel Logo" href="https://vercel.com">
         <Icon style="vertical-align: -0.2em" class="fill-white h-[1em] w-[4em]" name="logos:vercel" />

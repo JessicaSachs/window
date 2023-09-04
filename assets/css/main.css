@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+.dark * {
   @apply selection:bg-indigo-500;
+}
+
+.light *, * {
+  @apply selection:bg-indigo-200;
 }

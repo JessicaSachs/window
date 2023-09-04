@@ -2,7 +2,7 @@
 import WrapBalancer from 'vue-wrap-balancer';
 </script>
 <template>
-  <div class="text-left sm:text-center">
+  <div class="text-left sm:text-center dark">
     <h1 class="text-3xl font-normal text-gray-100">
       <WrapBalancer>Are you on window.top?</WrapBalancer>
     </h1>
