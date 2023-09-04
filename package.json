@@ -12,6 +12,7 @@
     "nuxt": "^3.2.0",
     "nuxt-icon": "^0.5.0",
     "postcss": "^8.4.21",
+    "postcss-100vh-fix": "^1.0.2",
     "tailwindcss": "^3.2.6"
   },
   "dependencies": {

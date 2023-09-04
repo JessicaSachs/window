@@ -36,6 +36,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.21
     version: 8.4.21
+  postcss-100vh-fix:
+    specifier: ^1.0.2
+    version: 1.0.2(postcss@8.4.21)
   tailwindcss:
     specifier: ^3.2.6
     version: 3.2.6(postcss@8.4.21)
@@ -4053,6 +4056,15 @@ packages:
       jsonc-parser: 3.2.0
       mlly: 1.4.1
       pathe: 1.1.1
+
+  /postcss-100vh-fix@1.0.2(postcss@8.4.21):
+    resolution: {integrity: sha512-t7vqk9AfjI4fXmWlQCEiMZFFhi1hro4WlECINI1TV6Qh1XapUJE++gCmNr95F5Hen/+bz1OmO+SiSB9TZmFmSg==}
+    engines: {node: '>=10.0'}
+    peerDependencies:
+      postcss: ^8.1.0
+    dependencies:
+      postcss: 8.4.21
+    dev: true
 
   /postcss-calc@8.2.4(postcss@8.4.21):
     resolution: {integrity: sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q==}
