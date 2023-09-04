@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         { property: 'og:url', content: 'https://window.top' },
         { property: 'og:image', content: '/social-preview.png' },
         { property: 'twitter:image', content: '/social-preview.png' },
-        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:card', content: 'summary_image_large' },
         { property: 'twitter:creator', content: '@_jessicasachs' },
         { property: 'twitter:url', content: 'https://window.top' },
         { property: 'twitter:title', content: 'window.top: No iFrames were Harmed' },
